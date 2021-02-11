@@ -11,7 +11,7 @@ model = model_from_json(open("fer.json", "r").read())
 model.load_weights('fer.h5')  
 
 
-face_haar_cascade = cv2.CascadeClassifier('C:\opencv-master\data\haarcascades\haarcascade_frontalface_default.xml')  
+face_haar_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')  
   
   
 cap=cv2.VideoCapture(0)  
