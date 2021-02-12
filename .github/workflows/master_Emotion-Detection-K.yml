@@ -19,17 +19,17 @@ jobs:
     - name: Set up Python version
       uses: actions/setup-python@v1
       with:
-        python-version: '3.7'
+        python-version: '3.8'
 
     - name: Build using AppService-Build
       uses: azure/appservice-build@v2
       with:
         platform: python
-        platform-version: '3.7'
+        platform-version: '3.8'
 
     - name: 'Deploy to Azure Web App'
       uses: azure/webapps-deploy@v2
       with:
         app-name: 'Emotion-Detection-K'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_3cfd4573f78d4328b966f933d098ef42 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_09b1816a643748f18046d81ba3dbcb6f }}
