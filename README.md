@@ -15,7 +15,14 @@ Dataset Downloaded from : [link](https://www.kaggle.com/deadskull7/fer2013)
 - fer.json : saved model weights
 
 **Steps to Run:**
-- Run app.py file in any python ide
+- Create a Virtual Environment and Install all dependencies from requirements.txt
+```
+  pip install -r requirements.txt
+```
+- Run app.py file
+```
+  python app.py
+```
 - Enter localhost address in browser
 
 Thats it ^_^
