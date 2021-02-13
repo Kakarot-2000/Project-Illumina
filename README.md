@@ -23,6 +23,8 @@ Dataset Downloaded from : [link](https://www.kaggle.com/deadskull7/fer2013)
 ```
   python app.py
 ```
-- Enter localhost address in browser
+- Enter localhost address in browser. 
+
+Note : Make sure there is good lighting in the room to get better accuracy.
 
 Thats it ^_^
