@@ -1,4 +1,4 @@
-# Real_Time_Emotion_Detection
+# Illumina
 
 Here, to perform emotion detection on live camera feed I have implemented a Convolutional Neural Network and trained the network on fer2013 dataset hosted by Kaggle.
 Detects upto 7 emotions for all identified faces in frame ['happy','neutral','fear','suprise','sad','disgust','anger'].
